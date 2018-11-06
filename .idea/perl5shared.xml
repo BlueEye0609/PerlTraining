@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Perl5Settings">
+    <option name="PERL_TIDY_ARGS" value="-pbp   -w   -iob   -l=109    -mbl=2  -i=3    -ci=3   -vt=0    -pt=2    -bt=2     -sbt=2    -sct   -sot" />
+  </component>
+</project>
