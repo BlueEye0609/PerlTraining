@@ -12,3 +12,31 @@ use lib "$Bin/../lib/";
 use Greet_2 qw(:example);
 
 say join "\n" => greet("Hi" => @ARGV);
+
+=head1 NAME
+
+ greet_module_2.pl - output greet
+
+=head1 SYNOPSIS
+
+  greet_module_2.pl [-h]
+
+=head1 DESCRIPTION
+
+B<greet_module_2> is the best, bla bla bla, C<code code>
+
+=head1 OPTIONS
+
+=over
+
+=item B<-h>
+
+Help Help help
+
+=back
+
+Some Example:
+  use Foobar;
+  Example->code()
+
+=cut
