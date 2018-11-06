@@ -20,3 +20,24 @@ sub greet {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+ Greet_2 - the universal greeter
+
+=head1 SYNOPSIS
+
+  use Greet_2 qw(greet);
+  @x = greet('Hi', 'Hans', 'Fred');
+
+=head1 FUNCTIONS
+
+=over
+
+=item B<greet>(I<salutation>, I<name>...)
+
+Be friendly.
+
+=back

@@ -1,6 +1,11 @@
 #!/usr/bin/env perl
 use Modern::Perl;
+use Getopt::Long;
+use Pod::Usage;
 
+GetOptions(
+   'h|help' => sub { pod2usage(-exit => 0) },
+) or pod2usage;
 # BEGIN {
 #    push @INC, '.';
 # }
