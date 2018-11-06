@@ -9,4 +9,6 @@ use FindBin '$Bin'; # find the directory the script is located.
 use lib $Bin;
 
 use modules::Greet;
-say join "\n" => greet("HI" => @ARGV);
+
+my $foo = 'FOO';
+say join "\n" => greet("Hi" => @ARGV);
