@@ -2,5 +2,7 @@
 #use strict;
 use warnings FATAL => 'all';
 
-no warnings;
-print "x value : $x";
+{
+   no warnings uninitialized;
+   print "x value : $x";
+}
