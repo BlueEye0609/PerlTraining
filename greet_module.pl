@@ -11,4 +11,4 @@ use lib $Bin;
 use modules::Greet;
 
 my $foo = 'FOO';
-say join "\n" => greet("Hi" => @ARGV);
+say join "\n" => Greet::greet("Hi" => @ARGV);

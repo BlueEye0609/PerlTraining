@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+package Greet;
 use Modern::Perl;
 
 our $VERSION = 0.1;
