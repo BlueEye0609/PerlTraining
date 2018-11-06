@@ -1,4 +1,4 @@
-package modules::Greet;
+package Greet;
 use Modern::Perl;
 
 our $VERSION = 0.1;

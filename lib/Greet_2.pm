@@ -1,4 +1,4 @@
-package modules::Greet_2;
+package Greet_2;
 use Modern::Perl;
 
 use parent 'Exporter';

@@ -6,9 +6,9 @@ use Modern::Perl;
 # }
 
 use FindBin '$Bin'; # find the directory the script is located.
-use lib $Bin;
+use lib "$Bin/../lib/";
 
-use modules::Greet;
+use Greet;
 
 my $foo = 'FOO';
 say join "\n" => Greet::greet("Hi" => @ARGV);
