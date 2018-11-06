@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use DDP;
-use Smart::Comments;
+use if $ENV{DEBUG} => 'Smart::Comments';
 
 my %family = (
    'eva'    => '12',
