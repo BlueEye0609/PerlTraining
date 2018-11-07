@@ -2,6 +2,7 @@ use strict;
 use warnings;
 use Test::More;
 use Test::Exception;
+# use blib;
 
 # use Greet qw(greet)
 use_ok 'Greet_2', 'greet' or BAIL_OUT 'no sense in going';
