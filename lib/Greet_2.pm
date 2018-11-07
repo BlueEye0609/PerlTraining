@@ -16,7 +16,10 @@ our %EXPORT_TAGS = (
 
 sub greet {
    my $salutation = shift // die;
-   return map { "$salutation $_" } @_;
+   # my @array = shift @_ // die "no arrays";
+   # return (map { "$salutation $_" } @_)[0..@_-1];
+   # return map { "$salutation $_" } @_;
+   return (map { "$salutation $_" } @_)[0..$#_];
 }
 
 1;

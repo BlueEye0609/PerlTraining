@@ -11,6 +11,8 @@ can_ok 'Greet_2', qw(greet) or BAIL_OUT 'no sense in going, missing fucntions!';
 # is set_value, 'expected result' => 'description'
 is greet('Hi', 'Hans'), 'Hi Hans' => 'Greet a single person'; # this will fail because of function returns array to a variable
 
+# use Data::Dumper;
+# diag Dumper \%INC;
 # diag()
 dies_ok { greet() } 'Dies as expected';
 # compare the data structure each element for each element so see if they are the same as each other.
