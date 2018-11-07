@@ -6,10 +6,10 @@ sub new {
    my $class = shift; # class name
    my $name = shift // die; # name of the person
 
-   my $self = bless {}; #if no class specified, just assign the reference to the current package.
-   # bless( $self, $class );
+   # my $self = bless {}; #if no class specified, just assign the reference to the current package.
+   my $self = bless {} => $class; # to make the object to be the class that it ->new
 
-   $self->{name} = $name;
+   $self->set_name($name);
    # my $self = bless { name => shift }
 
    return $self;
