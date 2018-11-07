@@ -41,3 +41,11 @@ __END__
 Be friendly.
 
 =back
+
+=head1 AUTHOR
+
+It is from L<yejing.huang@sap.com>
+   L<GMP::foo::Bar> L<http://foobar.com/>
+
+B<<  >>
+
